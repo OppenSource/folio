@@ -31,8 +31,8 @@ jobs:
         with:
           node_version: 18.x
 
-      - name: Installer les dépendances
-        run: npm install
+      #- name: Installer les dépendances
+      #  run: npm install
 
       - name: Build
         run: npm run build
